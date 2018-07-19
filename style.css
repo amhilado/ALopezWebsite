@@ -1,6 +1,14 @@
-.main {
+body {
     font-family: 'Raleway', sans-serif;
     background: #000;
     color: #fff;
+}
+
+.main {
+    background: #000;
     text-align: center;
+}
+
+.top-buffer {
+    margin-top: 5%;
 }
