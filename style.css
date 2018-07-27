@@ -61,6 +61,7 @@
     background: #202020;
     text-align: center;
     height: 90vh;
+    padding-top: 300px;
 }
 
 #smallFontSize {
@@ -88,6 +89,11 @@ body {
 a {
     color: #FFF;
     transition-duration: 0.5s;
+}
+
+i {
+    font-size: 64px;
+    padding: 10px 25px 100px 25px;
 }
 
 a:hover {
