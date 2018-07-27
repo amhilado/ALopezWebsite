@@ -15,16 +15,22 @@
 
 /** Navigation Bar - Logo Grouping **/
 #logoGroup {
-    width: 50%;
+    /*width: 50%;
+    height: auto;
+    float: left;*/
+    width: 380px;
     height: auto;
     float: left;
 }
 
 #logoGroup h1 {
-    float: right;
+    /*float: right;
     width: 83%;
     padding-top: 3.05%;
-    font-size: 2rem;
+    font-size: 2rem;*/
+    float: right;
+    width: 280px;
+    padding-top: 15px;
 }
 
 .logo {
@@ -38,15 +44,25 @@
 
 /** Navigation Bar - Navigation Links **/
 #navLinks {
-    float: right;
+    /*float: right;
     width: 50%;
+    height: auto;
+    margin: 0;
+    text-align: right;*/
+    float: right;
+    width: 380px;
     height: auto;
     margin: 0;
     text-align: right;
 }
 
 #navLinks ul {
-    width: 100%;
+    /*width: 100%;
+    height: auto;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;*/
+    width: 380px;
     height: auto;
     display: inline-block;
     list-style: none;
