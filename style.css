@@ -36,23 +36,21 @@
 /** Navigation Bar - Navigation Links **/
 #navLinks {
     float: right;
+    height: 80px;
     width: 380px;
-    height: auto;
-    margin: 0;
     text-align: right;
 }
 
 #navLinks ul {
     width: 380px;
-    height: auto;
     display: inline-block;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
+    margin: 0;
 }
 
 #navLinks li {
     width: 100%;
-    height: auto;
     display: inline;
 }
 
