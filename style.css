@@ -58,10 +58,12 @@
 
 /** Main Jumbotron **/
 .main {
+    width: 100%;
     background: #202020;
     text-align: center;
     height: 90vh;
-    padding-top: 300px;
+    display: flex;
+    align-items: center;
 }
 
 #smallFontSize {
