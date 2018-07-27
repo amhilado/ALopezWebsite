@@ -1,0 +1,95 @@
+/** Navigation Bar **/
+.navigation-bar {
+    width: 100%;
+    height: 80px;
+}
+
+.navigation-bar a {
+    font-size: 1.2rem;
+    float: right;
+    vertical-align: top;
+    margin-right: 60px;
+    height: 80px;
+    line-height: 80px;
+}
+
+/** Navigation Bar - Logo Grouping **/
+.logo {
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+#logoGroup {
+    width: 380px;
+    height: auto;
+    float: left;
+}
+
+#logoGroup h1 {
+    float: right;
+    width: 280px;
+    padding-top: 24px;
+    font-size: 1.8rem;
+}
+
+/** Navigation Bar - Navigation Links **/
+#navLinks {
+    float: right;
+    width: 380px;
+    height: auto;
+    margin: 0;
+    text-align: right;
+}
+
+#navLinks ul {
+    width: 380px;
+    height: auto;
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+}
+
+#navLinks li {
+    width: 100%;
+    height: auto;
+    display: inline;
+}
+
+/** Main Jumbotron **/
+.main {
+    background: #202020;
+    text-align: center;
+    height: 90vh;
+}
+
+#smallFontSize {
+    font-size: 1.25em;
+    margin-bottom: 1rem;
+}
+
+#largeFontSize {
+    font-size: 2.5em;
+    margin-bottom: .5rem;
+}
+
+/** Container Buffer **/
+.top-buffer {
+    margin-top: 5%;
+}
+
+/** Body **/
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+a {
+    color: #FFF;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: teal;
+}
