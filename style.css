@@ -82,7 +82,7 @@
 .aboutCard {
     position: absolute;
     bottom: -70px;
-    right: 20px;
+    right: 10px;
 }
 
 /** Card Styling **/
@@ -130,7 +130,7 @@ body {
     color: #fff;
 }
 
-homeIcon {
+.homeIcon {
     font-size: 64px;
     padding: 10px 25px 100px 25px;
 }
