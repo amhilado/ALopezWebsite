@@ -74,6 +74,50 @@
     margin-bottom: .5rem;
 }
 
+/*** About Page CSS ***/
+.container {
+    position: relative;
+}
+
+.aboutCard {
+    position: absolute;
+    bottom: -70px;
+    right: 20px;
+}
+
+/** Card Styling **/
+.blueCard {
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(38, 46, 63, 0.6);
+}
+
+.cardTitle {
+    text-align: center;
+}
+
+/** Lower Card Elements **/
+.mainPoint {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.subPoint {
+    font-size: 18px;
+    margin: 0;
+}
+
+.aboutIcon {
+    font-size: 64px;
+}
+
+ul li {
+    font-size: 18px;
+}
+
 /** Container Buffer **/
 .top-buffer {
     margin-top: 5%;
@@ -86,14 +130,14 @@ body {
     color: #fff;
 }
 
+homeIcon {
+    font-size: 64px;
+    padding: 10px 25px 100px 25px;
+}
+
 a {
     color: #FFF;
     transition-duration: 0.5s;
-}
-
-i {
-    font-size: 64px;
-    padding: 10px 25px 100px 25px;
 }
 
 a:hover {
