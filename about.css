@@ -54,24 +54,47 @@
     display: inline;
 }
 
-/** Main Jumbotron **/
-.main {
-    width: 100%;
-    background: #202020;
+/** Card Styling **/
+.container {
+    position: relative;
+}
+
+.aboutCard {
+    position: absolute;
+    bottom: -70px;
+    right: 10px;
+}
+
+.blueCard {
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(38, 46, 63, 0.6);
+}
+
+.cardTitle {
     text-align: center;
-    height: 90vh;
-    display: flex;
-    align-items: center;
 }
 
-#smallFontSize {
-    font-size: 1.25em;
-    margin-bottom: 1rem;
+/** Lower Card Elements **/
+.mainPoint {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
 }
 
-#largeFontSize {
-    font-size: 2.5em;
-    margin-bottom: .5rem;
+.subPoint {
+    font-size: 18px;
+    margin: 0;
+}
+
+.aboutIcon {
+    font-size: 64px;
+}
+
+ul li {
+    font-size: 18px;
 }
 
 /** Container Buffer **/
@@ -84,11 +107,6 @@ body {
     font-family: 'Raleway', sans-serif;
     background: #000;
     color: #fff;
-}
-
-.homeIcon {
-    font-size: 64px;
-    padding: 10px 25px 100px 25px;
 }
 
 a {
