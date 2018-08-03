@@ -59,6 +59,25 @@
     display: inline;
 }
 
+#hamburger {
+    font-size: 40px;
+    text-align: right;
+    visibility: hidden;
+}
+
+@media (max-width: 768px) {
+    #navLinks {
+        height: 0;
+        visibility: hidden;
+    }
+
+    #hamburger {
+        padding-right: 40px;
+        padding-top: 12px;
+        visibility: visible;
+    }
+}
+
 /** Main Jumbotron **/
 .main {
     width: 100%;
