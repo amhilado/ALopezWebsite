@@ -11,6 +11,7 @@
     margin-right: 60px;
     height: 80px;
     line-height: 80px;
+    text-decoration: none;
 }
 
 /** Navigation Bar - Logo Grouping **/
@@ -21,7 +22,7 @@
 }
 
 #logoGroup {
-    width: 380px;
+    width: 430px;
     height: auto;
     float: left;
 }
@@ -29,8 +30,12 @@
 #logoGroup h1 {
     float: right;
     width: 280px;
-    padding-top: 24px;
+    padding-top: 35px;
     font-size: 1.8rem;
+}
+
+#logoGroup a:hover {
+    color: white;
 }
 
 /** Navigation Bar - Navigation Links **/
@@ -98,4 +103,8 @@ i {
 
 a:hover {
     color: teal;
+}
+/** Let's Connect **/
+.connectIcons a {
+    text-decoration: none;
 }
