@@ -18,7 +18,7 @@
 .logo {
     height: 50px;
     margin-left: 40px;
-    margin-top: 15px;
+    margin-top: -11px;
 }
 
 #logoGroup {
@@ -30,7 +30,7 @@
 #logoGroup h1 {
     float: right;
     width: 280px;
-    padding-top: 35px;
+    padding-top: 22px;
     font-size: 1.8rem;
 }
 

@@ -11,17 +11,18 @@
     margin-right: 60px;
     height: 80px;
     line-height: 80px;
+    text-decoration: none;
 }
 
 /** Navigation Bar - Logo Grouping **/
 .logo {
     height: 50px;
     margin-left: 40px;
-    margin-top: 15px;
+    margin-top: -11px;
 }
 
 #logoGroup {
-    width: 380px;
+    width: 430px;
     height: auto;
     float: left;
 }
@@ -29,8 +30,12 @@
 #logoGroup h1 {
     float: right;
     width: 280px;
-    padding-top: 24px;
+    padding-top: 22px;
     font-size: 1.8rem;
+}
+
+#logoGroup a:hover {
+    color: white;
 }
 
 /** Navigation Bar - Navigation Links **/
