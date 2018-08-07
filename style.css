@@ -65,7 +65,7 @@
     visibility: hidden;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 808px) {
     #navLinks {
         height: 0;
         visibility: hidden;
@@ -76,6 +76,38 @@
         padding-top: 12px;
         visibility: visible;
     }
+}
+
+@media (max-width: 504px) {
+    #logoGroup {
+        width: 320px;
+    }
+
+    .navigation-bar a {
+        width: 295px;
+    }
+
+    #logoGroup h1 {
+        width: 205px;
+    }
+}
+
+@media (max-width: 375px) {
+    #logoGroup {
+        width: 285px;
+    }
+
+    .navigation-bar a {
+        margin-right: 30px;
+    }
+
+    #hamburger {
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+
 }
 
 /** Main Jumbotron **/
