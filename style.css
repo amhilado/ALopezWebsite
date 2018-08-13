@@ -107,7 +107,13 @@
 }
 
 @media (max-width: 320px) {
+    #logoGroup {
+        width: 265px;
+    }
 
+    .navigation-bar a {
+        margin-right: 10px;
+    }
 }
 
 /** Main Jumbotron **/
