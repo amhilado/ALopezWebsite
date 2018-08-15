@@ -59,12 +59,26 @@
     display: inline;
 }
 
+/** Hamburger Bars Menu **/
 #hamburger {
     font-size: 40px;
     text-align: right;
     visibility: hidden;
 }
 
+.fa-bars {
+    color: white;
+}
+
+.dropdownContent {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/** Media Queries for Nav Bar **/
 @media (max-width: 808px) {
     #navLinks {
         height: 0;
@@ -72,9 +86,13 @@
     }
 
     #hamburger {
-        padding-right: 40px;
+        padding-right: 20px;
         padding-top: 12px;
         visibility: visible;
+    }
+
+    .dropdownContent a {
+        margin-right: 320px;
     }
 }
 
@@ -90,6 +108,10 @@
     #logoGroup h1 {
         width: 205px;
     }
+
+    .dropdownContent a {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -104,6 +126,10 @@
     #hamburger {
         padding-right: 20px;
     }
+
+    .dropdownContent a {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -113,6 +139,10 @@
 
     .navigation-bar a {
         margin-right: 10px;
+    }
+
+    #hamburger {
+        padding-right: 3px;
     }
 }
 

@@ -13,6 +13,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="functions.js"></script>
 
 </head>
 
@@ -40,7 +41,15 @@
         </div>
 
         <div id="hamburger">
-            <i class="fas fa-bars"></i>
+            <button onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="dropdown" class="dropdownContent">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="#">Work</a>
+            </div>
         </div>
     </nav>
 
