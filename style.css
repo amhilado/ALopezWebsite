@@ -59,6 +59,178 @@
     display: inline;
 }
 
+/** Hamburger Bars Menu **/
+#hamburger {
+    font-size: 40px;
+    text-align: right;
+    visibility: hidden;
+}
+
+#hamburger button {
+    background: none;
+    border: none;
+}
+
+.fa-bars {
+    color: white;
+}
+
+.dropdownContent {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+/** Media Queries for Nav Bar **/
+@media (max-width: 808px) {
+    #navLinks {
+        height: 0;
+        visibility: hidden;
+    }
+
+    #hamburger {
+        padding-right: 20px;
+        padding-top: 12px;
+        visibility: visible;
+    }
+
+    .dropdownContent a {
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 504px) {
+    #logoGroup {
+        width: 320px;
+    }
+
+    .navigation-bar a {
+        width: 295px;
+        margin-right: 45px;
+    }
+
+    #logoGroup h1 {
+        width: 205px;
+    }
+
+    .dropdownContent a {
+        margin-right: 0px;
+    }
+
+    .col-lg-4 img {
+        padding: 15px 0px 20px 42px;
+    }
+
+    .col-lg-6 h3 {
+        padding-left: 70px;
+    }
+
+    .col-lg-6 p { 
+        padding: 0 40px;
+    }
+
+    .col-lg-6 a { 
+        padding-left: 40px;
+    }
+
+    .connectIcons a {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    #logoGroup {
+        width: 285px;
+    }
+
+    .navigation-bar a {
+        margin-right: 15px;
+    }
+
+    #hamburger {
+        padding-right: 20px;
+    }
+
+    .dropdownContent a {
+        margin-right: 0px;
+    }
+
+    .col-lg-4 img {
+        padding: 10px 0px 20px 24px;
+    }
+
+    .col-lg-6 h3 {
+        padding-left: 50px;
+    }
+
+    .col-lg-6 p { 
+        padding: 0 25px;
+    }
+
+    .col-lg-6 a { 
+        padding-left: 25px;
+    }
+
+    .connectIcons a {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .col-lg-4 img {
+        padding: 10px 0px 20px 15px;
+    }
+
+    .col-lg-6 p { 
+        padding: 0 20px;
+    }
+
+    .col-lg-6 a { 
+        padding-left: 20px;
+    }
+
+    .connectIcons a {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    #logoGroup {
+        width: 265px;
+    }
+
+    .navigation-bar a {
+        margin-right: 10px;
+    }
+
+    #hamburger {
+        padding-right: 3px;
+    }
+
+    .col-lg-4 img {
+        padding: 10px 0px 20px 0px;
+    }
+
+    .col-lg-6 h3 {
+        padding-left: 40px;
+    }
+
+    .col-lg-6 p { 
+        padding: 0 10px;
+    }
+
+    .col-lg-6 a { 
+        padding-left: 10px;
+    }
+
+    .connectIcons a {
+        padding-left: 0;
+    }
+}
+
 /** Main Jumbotron **/
 .main {
     width: 100%;

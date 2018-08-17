@@ -13,6 +13,7 @@
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="functions.js"></script>
 
 </head>
 
@@ -38,6 +39,17 @@
                 </li>
             </ul>
         </div>
+
+        <div id="hamburger">
+            <button onclick="myFunction()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div id="dropdown" class="dropdownContent">
+                <a href="#">Work</a>
+                <a href="contact.html">Contact</a>    
+                <a href="about.html">About</a>
+            </div>
+        </div>
     </nav>
 
     <div class="main justify-content-center">
@@ -49,7 +61,7 @@
         </div>
     </div>
 
-    <div class="container container-fluid">
+    <div class="container">
         <div class="row justify-content-center top-buffer">
             <div class="col-lg-6 text-center">
                 <h1>Recent Projects</h1>
@@ -86,7 +98,7 @@
         </div>
     </div>
 
-    <div class="container container-fluid">
+    <div class="container">
         <div class="row justify-content-center top-buffer">
             <div class="col-lg-6 text-center">
                 <h1>Let's Connect!</h1>
