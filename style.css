@@ -83,7 +83,7 @@
     display: block;
 }
 
-/** Media Queries for Nav Bar **/
+/** Media Queries for Nav Bar and Content **/
 @media (max-width: 808px) {
     #navLinks {
         height: 0;
@@ -98,6 +98,30 @@
 
     .dropdownContent a {
         margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .col-lg-4 img {
+        padding: 15px 0px 20px 102px;
+    }
+
+    .col-lg-6 h3 {
+        padding-left: 130px;
+    }
+
+    .col-lg-6 p { 
+        padding: 0 103px;
+    }
+
+    .col-lg-6 a { 
+        padding-left: 103px;
+    }
+
+    .connectIcons a {
+        padding-left: 0;
     }
 
 }
