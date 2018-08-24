@@ -84,7 +84,7 @@
 }
 
 /** Media Queries for Nav Bar and Content **/
-@media (max-width: 808px) {
+@media (max-width: 809px) {
     #navLinks {
         height: 0;
         visibility: hidden;
