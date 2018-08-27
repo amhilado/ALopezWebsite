@@ -255,7 +255,42 @@
     }
 }
 
+/** Contact Info **/
+.contact {
+    display: inline-block;
+    padding-left: 50px;
+}
 
+.contactInfo {
+    float: left;
+    padding-right: 15px;
+}
+
+.contactIcon {
+    float: right;
+    padding-left: 15px;
+    border-left: 1px solid;
+    height: 55px;
+}
+
+@media (max-width: 991px) {
+    .contact {
+        display: block;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+
+    .contactInfo {
+        float: none;
+        padding-right: 0;
+    }
+
+    .contactIcon {
+        float: none;
+        border: none;
+        padding-left: 0;
+    }
+}
 /**Form Styling**/
 
 .info{
