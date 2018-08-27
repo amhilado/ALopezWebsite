@@ -100,6 +100,11 @@
         margin-right: 30px;
     }
 
+    .row {
+        display: inline-flex;
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 767px) {
@@ -277,7 +282,6 @@
     .contact {
         display: block;
         padding-left: 0;
-        padding-top: 10px;
     }
 
     .contactInfo {
@@ -291,6 +295,7 @@
         padding-left: 0;
     }
 }
+
 /**Form Styling**/
 
 .info{
