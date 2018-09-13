@@ -208,11 +208,7 @@
         padding: 10px 0px 20px 15px;
     }
 
-<<<<<<< HEAD
-    /*.col-lg-6 p { 
-=======
    /* .col-lg-6 p { 
->>>>>>> 9d880e645edf863f8db7d68dfe68e2d64a925d11
         padding: 0 20px;
     }*/
 
@@ -267,12 +263,12 @@
 .aboutCard {
     position: absolute;
     bottom: -70px;
-    right: 10px;
+    right: 5px;
 }
 
 .blueCard {
     height: 450px;
-    width: 350px;
+    width: 400px;
     margin: 20px;
     padding: 25px;
     background-color: rgb(38, 46, 63, 0.6);
@@ -280,6 +276,25 @@
 
 .cardTitle {
     text-align: center;
+}
+
+/** Upper Container Media Queries **/
+@media (max-width: 1200px) {
+    .container {
+        position: static;
+    }
+    
+    .aboutCard {
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        width: auto;
+    }
+
+    .container img {
+        height: 100%;
+        width: 100%;
+    }
 }
 
 /** Lower Card Elements **/
