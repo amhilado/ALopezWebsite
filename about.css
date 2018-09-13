@@ -264,6 +264,12 @@
     position: absolute;
     bottom: -70px;
     right: 10px;
+
+    height: 450px;
+    width: 350px;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(38, 46, 63, 0.6);
 }
 
 .blueCard {
