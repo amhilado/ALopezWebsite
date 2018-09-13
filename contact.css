@@ -273,6 +273,7 @@
 
 .contactIcon {
     float: right;
+    padding-top: 15px;
     padding-left: 15px;
     border-left: 1px solid;
     height: 55px;
@@ -292,6 +293,7 @@
     .contactIcon {
         float: none;
         border: none;
+        padding-top: 7px;
         padding-left: 0;
     }
 }
