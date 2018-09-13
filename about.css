@@ -208,7 +208,11 @@
         padding: 10px 0px 20px 15px;
     }
 
+<<<<<<< HEAD
     /*.col-lg-6 p { 
+=======
+   /* .col-lg-6 p { 
+>>>>>>> 9d880e645edf863f8db7d68dfe68e2d64a925d11
         padding: 0 20px;
     }*/
 
@@ -296,11 +300,6 @@
 
 ul li {
     font-size: 18px;
-}
-
-/** Lower Card Media Queries**/
-@media (max-width: 576px) {
-
 }
 
 /** Container Buffer **/
