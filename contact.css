@@ -63,7 +63,7 @@
 #hamburger {
     font-size: 40px;
     text-align: right;
-    visibility: hidden;
+    display: none;
 }
 
 #hamburger button {
@@ -87,17 +87,25 @@
 @media (max-width: 809px) {
     #navLinks {
         height: 0;
-        visibility: hidden;
+        display: none;
     }
 
     #hamburger {
         padding-right: 20px;
         padding-top: 12px;
-        visibility: visible;
+        display: block;
+    }
+
+    .dropdownContent li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
     }
 
     .dropdownContent a {
-        margin-right: 30px;
+        margin-right: 0px;
     }
 
     .row {
@@ -138,15 +146,10 @@
 
     .navigation-bar a {
         width: 295px;
-        margin-right: 45px;
     }
 
     #logoGroup h1 {
         width: 205px;
-    }
-
-    .dropdownContent a {
-        margin-right: 0px;
     }
 
     .col-lg-4 img {
@@ -181,10 +184,6 @@
 
     #hamburger {
         padding-right: 20px;
-    }
-
-    .dropdownContent a {
-        margin-right: 0px;
     }
 
     .col-lg-4 img {
@@ -271,7 +270,7 @@
     padding-right: 15px;
 }
 
-.contactIcon {
+.contactIconDesktop {
     float: right;
     padding-top: 15px;
     padding-left: 15px;
@@ -279,10 +278,22 @@
     height: 55px;
 }
 
+.contactIconMobile {
+    display: none;
+}
+
+@media (min-width: 1613px) {
+    .contact {
+        padding-left: 62px;
+    }
+
+}
+
 @media (max-width: 991px) {
     .contact {
         display: block;
         padding-left: 0;
+        padding-bottom: 13px;
     }
 
     .contactInfo {
@@ -290,16 +301,20 @@
         padding-right: 0;
     }
 
-    .contactIcon {
+    .contactIconDesktop {
+        display: none;
+    }
+
+    .contactIconMobile {
+        display: block;
         float: none;
         border: none;
-        padding-top: 7px;
+        padding-bottom: 10px;
         padding-left: 0;
     }
 }
 
 /**Form Styling**/
-
 .info{
     padding-top: 14px;
     text-align: right;
