@@ -278,6 +278,19 @@
     text-align: center;
 }
 
+/** Card Media Queries **/
+@media (min-width: 1201px) {
+    .smallAboutCard {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .aboutCard {
+        display: none;
+    }
+}
+
 /** Upper Container Media Queries **/
 @media (max-width: 1200px) {
     .container {
@@ -295,6 +308,7 @@
         height: 100%;
         width: 100%;
     }
+
 }
 
 /** Lower Card Elements **/
