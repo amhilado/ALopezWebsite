@@ -270,12 +270,16 @@
     padding-right: 15px;
 }
 
-.contactIcon {
+.contactIconDesktop {
     float: right;
     padding-top: 15px;
     padding-left: 15px;
     border-left: 1px solid;
     height: 55px;
+}
+
+.contactIconMobile {
+    display: none;
 }
 
 @media (min-width: 1613px) {
@@ -289,6 +293,7 @@
     .contact {
         display: block;
         padding-left: 0;
+        padding-bottom: 13px;
     }
 
     .contactInfo {
@@ -296,16 +301,20 @@
         padding-right: 0;
     }
 
-    .contactIcon {
+    .contactIconDesktop {
+        display: none;
+    }
+
+    .contactIconMobile {
+        display: block;
         float: none;
         border: none;
-        padding-top: 7px;
+        padding-bottom: 10px;
         padding-left: 0;
     }
 }
 
 /**Form Styling**/
-
 .info{
     padding-top: 14px;
     text-align: right;
