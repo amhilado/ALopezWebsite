@@ -96,8 +96,16 @@
         display: block;
     }
 
+    .dropdownContent li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
     .dropdownContent a {
-        margin-right: 30px;
+        margin-right: 0px;
     }
 
 }
@@ -111,10 +119,6 @@
     .col-lg-6 h3 {
         padding-left: 130px;
     }
-
-    /*.col-lg-6 p { 
-        padding: 0 103px;
-    }*/
 
     .col-lg-6 a { 
         padding-left: 103px;
@@ -133,15 +137,10 @@
 
     .navigation-bar a {
         width: 295px;
-        margin-right: 45px;
     }
 
     #logoGroup h1 {
         width: 205px;
-    }
-
-    .dropdownContent a {
-        margin-right: 0px;
     }
 
     .col-lg-4 img {
@@ -151,10 +150,6 @@
     .col-lg-6 h3 {
         padding-left: 70px;
     }
-
-    /*.col-lg-6 p { 
-        padding: 0 40px;
-    }*/
 
     .col-lg-6 a { 
         padding-left: 40px;
@@ -178,10 +173,6 @@
         padding-right: 20px;
     }
 
-    .dropdownContent a {
-        margin-right: 0px;
-    }
-
     .col-lg-4 img {
         padding: 10px 0px 20px 24px;
     }
@@ -189,10 +180,6 @@
     .col-lg-6 h3 {
         padding-left: 50px;
     }
-
-    /*.col-lg-6 p { 
-        padding: 0 25px;
-    }*/
 
     .col-lg-6 a { 
         padding-left: 25px;
@@ -207,10 +194,6 @@
     .col-lg-4 img {
         padding: 10px 0px 20px 15px;
     }
-
-   /* .col-lg-6 p { 
-        padding: 0 20px;
-    }*/
 
     .col-lg-6 a { 
         padding-left: 20px;
@@ -241,10 +224,6 @@
     .col-lg-6 h3 {
         padding-left: 40px;
     }
-
-    /*.col-lg-6 p { 
-        padding: 0 10px;
-    }*/
 
     .col-lg-6 a { 
         padding-left: 10px;

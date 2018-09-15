@@ -96,8 +96,16 @@
         display: block;
     }
 
+    .dropdownContent li {
+        list-style: none;
+        display: block;
+        width: 100%;
+        height: auto;
+        float: left;
+    }
+
     .dropdownContent a {
-        margin-right: 30px;
+        margin-right: 0px;
     }
 
     .row {
@@ -138,15 +146,10 @@
 
     .navigation-bar a {
         width: 295px;
-        margin-right: 45px;
     }
 
     #logoGroup h1 {
         width: 205px;
-    }
-
-    .dropdownContent a {
-        margin-right: 0px;
     }
 
     .col-lg-4 img {
@@ -181,10 +184,6 @@
 
     #hamburger {
         padding-right: 20px;
-    }
-
-    .dropdownContent a {
-        margin-right: 0px;
     }
 
     .col-lg-4 img {
