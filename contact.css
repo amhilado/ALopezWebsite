@@ -279,6 +279,13 @@
     height: 55px;
 }
 
+@media (min-width: 1613px) {
+    .contact {
+        padding-left: 62px;
+    }
+
+}
+
 @media (max-width: 991px) {
     .contact {
         display: block;
