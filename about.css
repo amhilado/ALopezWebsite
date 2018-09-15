@@ -283,20 +283,19 @@
     .container {
         position: static;
     }
-
-    .container img {
-        height: 100%;
-        width: 100%;
-    }
     
     .aboutCard {
         position: static;
         bottom: 0px;
         right: 0px;
         width: auto;
-        height: 250px;
-        margin: 30px 0px;
     }
+
+    .container img {
+        height: 100%;
+        width: 100%;
+    }
+
 }
 
 /** Lower Card Elements **/
