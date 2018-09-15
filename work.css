@@ -63,7 +63,7 @@
 #hamburger {
     font-size: 40px;
     text-align: right;
-    visibility: hidden;
+    display: none;
 }
 
 #hamburger button {
@@ -87,13 +87,13 @@
 @media (max-width: 808px) {
     #navLinks {
         height: 0;
-        visibility: hidden;
+        display: none;
     }
 
     #hamburger {
         padding-right: 20px;
         padding-top: 12px;
-        visibility: visible;
+        display: block;
     }
 
     .dropdownContent a {
