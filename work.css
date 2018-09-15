@@ -256,37 +256,55 @@
 }
 
 /** Project Container **/
-.project {
-    width: 100%;
-    background-size: 100vw;
-    background-position: center;
-    text-align: center;
+.container-fluid {
+    padding: 0;
     height: 600px;
-    display: flex;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container-fluid:hover > .project {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+.container-fluid:hover > .projectText {
+    transform: perspective(1000px) translate3d(-48%, -48%, 30px);
+}
+
+.project {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    transition: 0.5s ease-in, 0.5s ease-out;
     align-items: center;
 }
 
-.project:hover {
-    -webkit-filter: brightness(0.8);
-    filter: brightness(0.8);
-    background-size: 100vw;
-    cursor: pointer;
+.project1 {
+    background-image: url(https://cdn-images-1.medium.com/max/2000/1*jOmqL305XiH0Rvj_gabASg.png);
+}
+
+.project2 {
+    background-image: url(https://www.webdesignerdepot.com/cdn-origin/uploads/2016/04/featured_code.jpg);
+}
+
+.project3 {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/037ecb30473933.56250e8a547ec.jpg);
 }
 
 .projectText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 50%;
     text-shadow: 2px 2px 2px #000;
-}
-
-@media (max-width: 1024px) {
-    .project {
-        background-size: 1024px;
-        background-position: center;
-    }
-
-    .project:hover {
-        background-size: 1024px;
-    }
+    transition: 0.5s ease-in, 0.5s ease-out;
 }
 
 /** Body **/
@@ -302,5 +320,9 @@ a {
 }
 
 a:hover {
+    color: #FFF;
+}
+
+li a:hover {
     color: teal;
 }
