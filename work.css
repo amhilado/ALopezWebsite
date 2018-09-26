@@ -84,7 +84,7 @@
 }
 
 /** Media Queries for Nav Bar and Content **/
-@media (max-width: 809px) {
+@media (max-width: 808px) {
     #navLinks {
         height: 0;
         display: none;
@@ -254,29 +254,56 @@
     }
 }
 
-/** Main Jumbotron **/
-.main {
-    width: 100%;
-    background: #202020;
+/** Project Container **/
+.container-fluid {
+    padding: 0;
+    height: 600px;
+    position: relative;
     text-align: center;
-    height: 90vh;
-    display: flex;
+    overflow: hidden;
+}
+
+.container-fluid:hover > .project {
+    -webkit-filter: brightness(1);
+    filter: brightness(1);
+}
+
+.container-fluid:hover > .projectText {
+    transform: perspective(1000px) translate3d(-48%, -48%, 30px);
+}
+
+.project {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    -webkit-filter: brightness(0.5);
+    filter: brightness(0.5);
+    transition: 0.5s ease-in, 0.5s ease-out;
     align-items: center;
 }
 
-#smallFontSize {
-    font-size: 1.25em;
-    margin-bottom: 1rem;
+.project1 {
+    background-image: url(https://cdn-images-1.medium.com/max/2000/1*jOmqL305XiH0Rvj_gabASg.png);
 }
 
-#largeFontSize {
-    font-size: 2.5em;
-    margin-bottom: .5rem;
+.project2 {
+    background-image: url(https://www.webdesignerdepot.com/cdn-origin/uploads/2016/04/featured_code.jpg);
 }
 
-/** Container Buffer **/
-.top-buffer {
-    margin-top: 5%;
+.project3 {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/037ecb30473933.56250e8a547ec.jpg);
+}
+
+.projectText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-shadow: 2px 2px 2px #000;
+    transition: 0.5s ease-in, 0.5s ease-out;
 }
 
 /** Body **/
@@ -292,14 +319,9 @@ a {
 }
 
 a:hover {
-    color: teal;
-}
-/** Let's Connect **/
-.connectIcons a {
-    text-decoration: none;
+    color: #FFF;
 }
 
-.homeIcon {
-    font-size: 64px;
-    padding: 10px 25px 100px 25px;
+li a:hover {
+    color: teal;
 }

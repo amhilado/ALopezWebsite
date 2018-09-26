@@ -120,10 +120,6 @@
         padding-left: 130px;
     }
 
-    .col-lg-6 p { 
-        padding: 0 103px;
-    }
-
     .col-lg-6 a { 
         padding-left: 103px;
     }
@@ -153,10 +149,6 @@
 
     .col-lg-6 h3 {
         padding-left: 70px;
-    }
-
-    .col-lg-6 p { 
-        padding: 0 40px;
     }
 
     .col-lg-6 a { 
@@ -189,10 +181,6 @@
         padding-left: 50px;
     }
 
-    .col-lg-6 p { 
-        padding: 0 25px;
-    }
-
     .col-lg-6 a { 
         padding-left: 25px;
     }
@@ -205,10 +193,6 @@
 @media (max-width: 360px) {
     .col-lg-4 img {
         padding: 10px 0px 20px 15px;
-    }
-
-    .col-lg-6 p { 
-        padding: 0 20px;
     }
 
     .col-lg-6 a { 
@@ -241,10 +225,6 @@
         padding-left: 40px;
     }
 
-    .col-lg-6 p { 
-        padding: 0 10px;
-    }
-
     .col-lg-6 a { 
         padding-left: 10px;
     }
@@ -254,24 +234,80 @@
     }
 }
 
-/** Main Jumbotron **/
-.main {
-    width: 100%;
-    background: #202020;
+/** Card Styling **/
+.container {
+    position: relative;
+}
+
+.aboutCard {
+    position: absolute;
+    bottom: -70px;
+    right: 5px;
+}
+
+.blueCard {
+    height: 450px;
+    width: 400px;
+    margin: 20px;
+    padding: 25px;
+    background-color: rgb(38, 46, 63, 0.6);
+}
+
+.cardTitle {
     text-align: center;
-    height: 90vh;
-    display: flex;
-    align-items: center;
 }
 
-#smallFontSize {
-    font-size: 1.25em;
-    margin-bottom: 1rem;
+/** Card Media Queries **/
+@media (min-width: 1201px) {
+    .smallAboutCard {
+        display: none;
+    }
 }
 
-#largeFontSize {
-    font-size: 2.5em;
-    margin-bottom: .5rem;
+@media (max-width: 1200px) { 
+    .aboutCard {
+        display: none;
+    }
+}
+
+/** Upper Container Media Queries **/
+@media (max-width: 1200px) {
+    .container {
+        position: static;
+    }
+    
+    .aboutCard {
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        width: auto;
+    }
+
+    .container img {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+
+/** Lower Card Elements **/
+.mainPoint {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.subPoint {
+    font-size: 18px;
+    margin: 0;
+}
+
+.aboutIcon {
+    font-size: 64px;
+}
+
+ul li {
+    font-size: 18px;
 }
 
 /** Container Buffer **/
@@ -293,13 +329,4 @@ a {
 
 a:hover {
     color: teal;
-}
-/** Let's Connect **/
-.connectIcons a {
-    text-decoration: none;
-}
-
-.homeIcon {
-    font-size: 64px;
-    padding: 10px 25px 100px 25px;
 }
