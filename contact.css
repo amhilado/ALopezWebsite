@@ -1,3 +1,14 @@
+/** Header **/
+.header {
+    width: 100%;
+}
+
+@media (max-width: 809px) {
+    .header {
+        padding-left: 30px;
+    }
+}
+
 /** Contact Info **/
 .contact {
     display: inline-block;
