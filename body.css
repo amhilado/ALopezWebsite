@@ -1,0 +1,15 @@
+/** Body **/
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+    color: #fff;
+}
+
+a {
+    color: #FFF;
+    transition-duration: 0.5s;
+}
+
+a:hover {
+    color: teal;
+}
